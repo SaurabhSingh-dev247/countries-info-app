@@ -1,0 +1,175 @@
+.section{
+    margin-top: 5rem;
+    margin-left: 0rem;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10rem;
+}
+
+.side-content{
+    padding: 1rem;
+    display: flex;
+    flex-flow: column;
+    gap: 2rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.country-flag-wrapper-dark-mode{
+    background-color: hsl(206, 22%, 19%);
+    padding: 16px;
+    height:380px;
+    width: 600px;
+    border-radius: 13px;
+}
+
+.country-flag-wrapper-light-mode{
+    background-color: hsl(0, 0%, 100%);
+    padding: 16px;
+    height:380px;
+    width: 600px;
+    border-radius: 13px;
+}
+
+.backward-btn-dark-mode{
+    padding: 10px 17px;
+    background-color: hsl(206, 22%, 19%);
+    color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 85px;
+    font-size: 15px;
+    display: inline-flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+   &:hover{
+    cursor: pointer;
+    background-color: hsl(204, 22%, 13%)
+   }
+}
+
+.backward-btn-light-mode{
+    padding: 10px 17px;
+    height: 35px;
+    width: 80px;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(200, 15%, 8%);
+    display: inline-flex;
+    justify-content: center;
+    gap: 3px;
+    align-items: center;
+   &:hover{
+    cursor: pointer;
+    background-color: hsl(0, 0%, 94%);
+   }
+}
+
+
+.countryFlag{
+    height: 100%;
+    width: 100%;
+}
+
+.countryName{
+    font-size: 40px;
+}
+
+.countryDetails {
+    padding: 3rem;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+    gap: 3rem;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+
+.country-details-wrapper{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 4rem;
+    justify-content: flex-start;
+    align-items:flex-start;
+}
+
+
+.countryDetailsText{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.spanText{
+    padding-left: 7px;
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.orderedList{
+    list-style-type: none;
+    display: flex;
+    flex-flow: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 11px;
+}
+
+.border-countries{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+.border-country-btn-dark-mode{
+    padding: 7px;
+    height: 40px;
+    width: 58px;
+    border-radius: 7px;
+    text-align: center;
+    border: none;
+    background-color: hsl(206, 22%, 19%);
+    color: hsl(0, 0%, 100%);
+    &:hover{
+        cursor: pointer;
+        background-color: hsl(204, 22%, 13%)
+       
+    }
+}
+
+.border-country-btn-light-mode{
+    padding: 7px;
+    height: 40px;
+    width: 58px;
+    border-radius: 7px;
+    border: none;
+    text-align: center;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(200, 15%, 8%);
+    &:hover{
+        cursor: pointer;
+        background-color: hsl(20, 10%, 94%);
+    }
+}
+
+.borderCountryText{
+    height: auto;
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
