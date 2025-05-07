@@ -28,7 +28,7 @@ A React-based web application that displays detailed information about countries
 ### Installation
 
 ```bash
-git clone https://github.com/your-username/countries-info-app.git
+git clone (https://github.com/SaurabhSingh-dev247/countries-info-app.git)
 cd countries-info-app
 npm install
 npm start
